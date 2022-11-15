@@ -12,3 +12,12 @@
 # Banyaknya bilangan ganjil : xxx
 # Jumlah seluruh bilangan ganjil : xxx
 # Banyaknya  bilangan ganjil : xxx
+
+# Program bialangan bulat dari 0 sampai 100 yang ganjil
+sum1 = 0
+for i in range(1, 100, 2):
+    suku = i
+    sum1 = sum1 + suku
+# Print nya harus diluar dari scopenya
+print("Hasil penjumlahannya adalah " + str(sum1))
+
