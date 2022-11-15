@@ -6,4 +6,12 @@
 # * *
 # *
 
+# Ini untuk kolom
+i = "* "
+for i in range(5):
+    # Ini untuk baris
+    for j in range(5 - i):
+        print("* ", end="")
+
+    print("\n")
 
