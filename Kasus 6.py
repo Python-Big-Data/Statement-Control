@@ -1,4 +1,4 @@
-# Buatlah program untuk menghitung hasil dari 1 + 2 +3 + ... + 100.
+# Buatlah program untuk menghitung hasil dari 1 + 2 + 3 + ... + 100.
 
 sum1 = 0
 for i in range (100):

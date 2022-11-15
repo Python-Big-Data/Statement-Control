@@ -20,9 +20,8 @@ while True:
     if nilaiBhsIndonesia <= 100 and nilaiIpa <= 100 and nilaiMatematika <= 100:
         if nilaiBhsIndonesia > 60 and nilaiIpa > 60 and nilaiMatematika > 70:
             statusKelulusan = input("Masukkan Kelulusan             : ")
-            if statusKelulusan == "LULUS" or statusKelulusan == "lulus":
-                print(
-                    "Sebab                          : Nilai bahasa Indonesia lebih dari 60 dan Nilai matematikanya lebih dari 70")
+            if statusKelulusan == "LULUS" or statusKelulusan == "lulus" or statusKelulusan == "Lulus":
+                print("Sebab                          : \n - Nilai bahasa Indonesia lebih dari 60 \n - Nilai matematikanya lebih dari 70 ")
             break
         else:
             statusKelulusan = input("Masukkan Kelulusan             : ")
@@ -34,9 +33,4 @@ while True:
     else:
         print("Peringatan: Nilai yang dimasukkan harus di bawah 100")
         break
-# Bila di taruh bawah sama saja
-statusKelulusan = input("Masukkan Kelulusan             : ")
-if statusKelulusan == "LULUS" or statusKelulusan == "lulus":
-    print("Sebab                          : Nilai bahasa Indonesia lebih dari 60 dan Nilai matematikanya lebih dari 70")
-else:
-    print("Sebab                          : Nilai bahasa Indonesia kurang dari 60 dan Nilai matematikanya kurang dari 70")
+
