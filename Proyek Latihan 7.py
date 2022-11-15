@@ -7,7 +7,8 @@
 # dari bilangan yang dipilih komputer atau 'Bilangan tebakan Anda terlalu kecil' jika bilangan yang di entri pemain
 # lebih kecil dari bilangan yang dipilih komputer adalah 10;
 
-# Hai.. nama saya Mr. Lappie, saya telah memilih sebuah bilangan bulat secara acak antara - s/d 100. Silakan tebak ya!!!"
+# Hai.. nama saya Mr. Lappie, saya telah memilih sebuah bilangan bulat secara acak antara - s/d 100.
+# Silakan tebak ya!!!"
 # Tebakan Anda: 4
 # hehehe.. Bilangan tebakan Anda terlalu kecil
 # Tebakan Anda: 20
@@ -17,6 +18,6 @@
 # Tebakan Anda: 9
 # hehehe.. Bilangan tebakan Anda terlalu kecil
 # Tebakan Anda: 10
-# hehehe.. Bilangan tebakan Anda BENAR :-)
+# yeeee.. Bilangan tebakan Anda BENAR :-)
 
 
