@@ -17,13 +17,26 @@
 # Tebakan Anda: 10
 # Yeeee.. Bilangan tebakan Anda BENAR :-)
 # Score Anda : 92
-jawab = 'ya'
-hitung = 0
+# Game tebakan
+namaPemain = input("Masukkan nama pemain: ")
+print("Hai.. nama saya", namaPemain, ", saya telah memilih sebuah bilangan bulat secara acak antara 0 s/d 100. ")
 
-while(True):
-    hitung += 1
-    jawab = input("Ulang lagi tidak? ")
-    if jawab == 'tidak':
+print("Silakan tebak ya!!!")
+poinAwal = 100
+jawaban = 10
+while True:
+    score = poinAwal - 2
+    tebakan = int(input("Tebakan Anda: "))
+    jawaban = 10
+    if tebakan == 10:
+        print("yeeee.. Bilangan tebakan Anda BENAR :-)")
         break
+    elif tebakan <= 10:
+        print("hehehe.. Bilangan tebakan Anda terlalu kecil")
+        tebakan != 10
+    else:
+        print("hehehe.. Bilangan tebakan Anda terlalu besar")
+        tebakan != 10
 
-print(f"Total perulagan: {hitung}")
+
+print(f"Score Anda: {score}")
