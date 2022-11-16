@@ -24,21 +24,24 @@ print("Silakan tebak ya!!!")
 poinAwal = 100
 jawaban = 10
 while True:
-    score = poinAwal - 2
-    if score == 0:
-        tebakan = int(input("Tebakan Anda: "))
-        jawaban = 10
+    tebakan = int(input("Tebakan Anda: "))
+    jawaban = 10
+    if (poinAwal >= 0 and poinAwal <=100):
         if tebakan == 10:
             print("yeeee.. Bilangan tebakan Anda BENAR :-)")
             break
         elif tebakan <= 10:
+            poinAwal -= 2
             print("hehehe.. Bilangan tebakan Anda terlalu kecil")
-            tebakan != 10
+
         else:
+            poinAwal -= 2
             print("hehehe.. Bilangan tebakan Anda terlalu besar")
-            tebakan != 10
     else:
-        print("Anda kalah")
+        print("Anda Kalah")
+        exit()
         break
 
-print(f"Score Anda: {score}")
+print(f"Score Anda: {poinAwal}")
+
+
