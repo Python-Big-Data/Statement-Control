@@ -23,9 +23,7 @@
 # Game tebakan
 namaPemain = input("Masukkan nama pemain: ")
 print("Hai.. nama saya", namaPemain, ", saya telah memilih sebuah bilangan bulat secara acak antara 0 s/d 100. ")
-
 print("Silakan tebak ya!!!")
-
 jawaban = 10
 while True:
     tebakan = int(input("Tebakan Anda: "))
